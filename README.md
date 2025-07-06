@@ -21,7 +21,7 @@ i## Hi there 👋>
   <main>
     <img src="https://via.placeholder.com/120" alt="Foto Profil">
     <h2>Tentang Saya</h2>
-    <p>Saya adalah mahasiswa aktif yang tertarik pada pengembangan web dan desain UI/UX.</p>
+    <p>Saya adalah mahasiswa iain laa roiba bogor aktif yang tertarik pada pengembangan web dan desain UI/UX.</p>
   </main>
 
   <footer>
@@ -80,7 +80,7 @@ body {
 }
 header {
   background: #004aad;
-  color: white;
+  color: blue sky;
   padding: 20px;
   text-align: center;
 }

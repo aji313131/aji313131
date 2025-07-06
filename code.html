@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Profil Mahasiswa - [Nama Kamu]</title>
+  <style>
+    :root {
+      --bg: #121212;
+      --primary: #00bcd4;
+      --text: #ffffff;
+      --card: #1e1e1e;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: var(--primary);
+      padding: 30px 20px;
+      text-align: center;
+      color: white;
+      animation: slideDown 1s ease-out;
+    }
+
+    @keyframes slideDown {
+      from { transform: translateY(-100%); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    section {
+      max-width: 800px;
+      margin: 30px auto;
+      background: var(--card);
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+      animation: fadeIn 1s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      border-radius: 50%;
+      width: 130px;
+      border: 3px solid var(--primary);
+    }
+
+    h2 {
+      border-bottom: 2px solid var(--primary);
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .sosmed a {
+      display: inline-block;
+      margin: 10px 15px 0 0;
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .sosmed a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0f0f0f;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>[Nama Kamu]</h1>
+    <p>Mahasiswa | [Jurusan] | [Universitas]</p>
+  </header>
+
+  <section>
+    <img src="https://via.placeholder.com/130" alt="Foto Mahasiswa" />
+    
+    <h2>Tentang Saya</h2>
+    <p>
+      Saya adalah mahasiswa jurusan [sebutkan jurusan], memiliki minat dalam [desain, teknologi, penelitian, dll].
+      Aktif dalam kegiatan kampus dan sedang mengembangkan skill di bidang [misalnya: web development, UI/UX, public speaking].
+    </p>
+
+    <h2>Proyek / Tugas Kuliah</h2>
+    <ul>
+      <li>Website E-Learning Kampus (HTML/CSS/JS)</li>
+      <li>Riset Pengaruh Media Sosial terhadap Mahasiswa</li>
+      <li>Poster Kegiatan Seminar Nasional</li>
+    </ul>
+
+    <h2>Kontak Saya</h2>
+    <div class="sosmed">
+      <a href="https://wa.me/6281234567890" target="_blank">WhatsApp</a>
+      <a href="mailto:email@example.com">Email</a>
+      <a href="https://instagram.com/username" target="_blank">Instagram</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 [Nama Kamu] - Dibuat dengan 💻 oleh Mahasiswa
+  </footer>
+
+</body>
+</html>

@@ -65,12 +65,11 @@ i## Hi there 👋>
     &copy; 2025 Aji313131
   </footer>
 
-  <script>
-    function toggleDarkMode() {
-      document.body.classList.toggle("dark");
+  <s    function toggleDarkMode() {
+      document.body.classList.toggle("dark")
     }
   </script>
-</body>
+</body>body>
 </html>
 body {
   font-family: sans-serif;

@@ -1,16 +1,38 @@
 ## Hi there 👋
 
-<!--
-**aji313131/aji313131** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Profil Mahasiswa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Halo, saya Aji</h1>
+    <p>Mahasiswa Teknik Informatika</p>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="tugas.html">Tugas</a>
+      <a href="cv.pdf" download>Download CV</a>
+      <button onclick="toggleDarkMode()">🌓</button>
+    </nav>
+  </header>
 
-Here are some ideas to get you started:
+  <main>
+    <img src="https://via.placeholder.com/120" alt="Foto Profil">
+    <h2>Tentang Saya</h2>
+    <p>Saya adalah mahasiswa aktif yang tertarik pada pengembangan web dan desain UI/UX.</p>
+  </main>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  <footer>
+    &copy; 2025 Aji313131
+  </footer>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark");
+    }
+  </script>
+</body>
+</html>
